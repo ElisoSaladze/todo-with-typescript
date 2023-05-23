@@ -74,6 +74,7 @@ const deleteTodo = (event) => {
         }
     }
     updateNumberOfTodos(totalTodos, ".counter");
+    updateNumberOfTodos(completedTodos, ".count2");
 };
 const checkTasks = () => {
     const reminder = document.querySelector(".heh");

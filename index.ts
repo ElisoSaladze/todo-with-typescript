@@ -88,6 +88,7 @@ const deleteTodo = (event: Event) => {
     }
   }
     updateNumberOfTodos(totalTodos, ".counter");
+    updateNumberOfTodos(completedTodos, ".count2");
 }
 
 const checkTasks = () => {
