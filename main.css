@@ -34,6 +34,7 @@ form {
     justify-content: center;
     align-items: stretch;
     width: 50%;
+    min-width: 250px;
     grid-gap: 8px;
     z-index: 1;
 }
@@ -60,6 +61,7 @@ form .main-btn {
 }
 .info {
     width: 50%;
+    min-width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -89,6 +91,7 @@ form .main-btn {
 }
 .show {
     width: 50%;
+    min-width: 300px;
     margin-top: 30px;
     border-top: 1px solid #333333;
     border-radius: 8px;
