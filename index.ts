@@ -85,6 +85,11 @@ const deleteTodo = (event: Event) => {
     if (taskIndex !== -1) {
         totalTodos.splice(taskIndex, 1);
         console.log(totalTodos);
+        const completedTaskIndex = completedTodos.findIndex((todo) => todo.id === taskId);
+        if (completedTaskIndex !== -1) {
+        completedTodos.splice(completedTaskIndex, 1);
+        console.log(completedTodos);
+        }
     }
   }
     updateNumberOfTodos(totalTodos, ".counter");
